@@ -11,13 +11,13 @@ export const Header = () => {
             if (refImage.current) {
                 refImage.current.className = refImage?.current?.className + ' active'
             }
-        }, 200);
+        }, 600);
         setTimeout(() => {
             if (refElem.current && refImageBg.current) {
                 refElem.current.className = refElem?.current?.className + ' active'
                 refImageBg.current.className = refImageBg?.current?.className + ' active'
             }
-        }, 800);
+        }, 1200);
     }, [])
     return (
         <>
