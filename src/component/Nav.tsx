@@ -12,7 +12,7 @@ const navigation = [
 
 export default function Nav() {
   return (
-    <Disclosure as="nav" className="bg-gray-800 nav blur-bg">
+    <Disclosure as="nav" className="nav blur-bg">
       {({ open }) => (
         <>
           <div className="mx-auto px-8">

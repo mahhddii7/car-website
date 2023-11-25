@@ -7,7 +7,7 @@ import { Footer } from './component/Footer';
 
 function App() {
   return (
-    <div className=' col-span-full'>
+    <div className=' col-span-full overflow-x-hidden'>
       <Nav />
       <div className=' col-span-1 w-full bg-bmw m-auto'>
         <Routes>
